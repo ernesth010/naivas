@@ -1,0 +1,139 @@
+body{
+    background-color: white;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ .main-header {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    /* width: 100%; */
+    /* padding: 1px -2px; */ 
+ }
+ .main-header nav {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    /* padding: 1px 3px; */
+   
+     
+ } 
+ .main-header nav h5 {
+    color: white;
+    margin-left: 29px;
+ }
+ .profiles{
+    align-items: center;
+    display: flex;
+    gap: 13px;
+    margin-left: 40rem;
+ }
+ .profiles p {
+    color: white;
+    cursor: pointer;
+ }
+
+ .contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    font-size: medium;
+ }
+ .heart i {
+    color: orange;
+ }
+ .call-icon i{
+    color: orange;
+ }
+ .contact p {
+    color: white;
+    
+ }
+.hero-header img{
+    width: 104px;
+    margin-top: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.hero-header{
+   display: flex;
+   align-items: center;
+   /* gap: 14px; */
+   justify-content: space-between;
+}
+.search-bar{
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding: 13px 20px;
+   
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.user-icon{
+   cursor: pointer;
+}
+.deliver{
+   display: flex;
+   align-items: center;
+   gap: 4px;
+}
+.deliver p{
+   color: green;
+}
+.county{
+   margin-top: -1.6rem;
+   color: green;
+   font-size: 18px;
+}
+.deliver div{
+   background-color: orange;
+   border: 1px solid gray;
+   padding: 1px 20px;
+   color: white;
+   cursor: pointer;
+}
+.register{
+   margin-top: -1.0rem;
+}
+.sign-in{
+   font-size: 18px;
+   color: green;
+   cursor: pointer;
+   
+}
+.kes{
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   margin-top: 15px;
+   /* border: 1px solid gray; */
+   /* background-color: orange; */
+}
+.save{
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   margin-top: -1.5rem;
+   margin-left: 13px;
+}
+.cash{
+   border: 1px solid gray;
+   padding: 2px 2px;
+   border-radius: 10px;
+   height: 80px;
+   cursor: pointer;
+   /* margin-left: 203px; */
+}
+.profiles{
+
+}
